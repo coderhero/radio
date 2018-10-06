@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Yan and Al Radio</title>
+    <link href="CSS/main.css" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="CSS/bootstrap.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-header">Yan & Alberto Radio<small>Jams for SoBro</small></h1>
+    <div class="radioplayer" style="height:240px"style="width:1200px">
+      <div id="Logo"></div>
+      <div class="Songinfo">
+        <span id= "Title" class="detail">SONG</span>
+        <span id= "Artist" class="detail"></span>
+      </div>
+      <button id= "Playbutton" class="playbutton" onclick="radio.playSong()"></<button>
+      <div>
+        <button id= "Shuffle" class="shuffle" onclick="radio.changeStation()"></<button>
+    </div>
+    </div>
+
+<h2 class="page-header">Our Stations</h2>
+    <div class="radiostations">
+      <div class="radio0"></div>
+      <div class="radio1"></div>
+      <div class="radio2"></div>
+      <div class="radio3"></div>
+      <div class="radio4"></div>
+
+
+
+    </div>
+
+</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="JS/main.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="JS/bootstrap.min.js"></script>
+  </body>
+</html>

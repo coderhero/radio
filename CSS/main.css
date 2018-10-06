@@ -1,0 +1,103 @@
+body {
+  background-image: url('../Media/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.radioplayer {
+  margin: 0 auto;
+  display: grid;
+  /* width: 1200px;
+  height: 240px; */
+  /* border: solid blue 6px; */
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#Logo {
+  background-image: url('../Media/iHeart90s.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* border: 3px solid red; */
+}
+
+.Songinfo {
+  display: flex;
+  flex-direction: column;
+  /* border: 3px solid green; */
+  text-align: center;
+  font-size: 26px;
+  font-weight: 800;
+
+}
+#Title {
+  flex: 1;
+  width: 200px;
+  height: 50px;
+  /*background-color: yellow; */
+  margin: 20px;
+}
+
+#Artist {
+  display: block;
+  flex: 1;
+  width: 200px;
+  height: 50px;
+  /* background-color: yellow; */
+  margin: 20px;
+}
+#Playbutton {
+  background-image: url('../Media/play.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  outline:none;
+  width: 130px;
+  height: 130px;
+  margin-top: 60px;
+ }
+.shuffle {
+  /* display: block; */
+  /* background-size: cover; */
+  background-image: url('../Media/shuffle.png');
+  background-color: transparent;
+  outline:none;
+  width: 130px;
+  height: 130px;
+  margin-top: 60px;
+
+
+}
+#Shuffle {
+  /* background-image: url('../Media/shuffle.png'); */
+  background-size: contain;
+  background-repeat: no-repeat;
+ }
+
+.radiostations {
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 1200px;
+  height: 240px;
+  /* border: 3px solid yellow; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+}
+.radio0 {
+  background: url('../Media/Gen-X-Radio.png');
+  background-size: cover;
+}
+.radio1 {
+   background: url('../Media/iHeart80s.png');
+  background-size: cover;
+}
+.radio2 {
+   background: url('../Media/Rock-Nation.png');
+  background-size: cover;
+}
+.radio3 {
+   background: url('../Media/iHeart90s.png');
+  background-size: cover;
+}
+.radio4 {
+   background: url('../Media/Soft-Rock.png');
+  background-size: cover;
+}
